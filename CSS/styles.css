@@ -1,0 +1,86 @@
+/** BODY **/
+ body {
+     margin: 0px;
+     padding: 0px; 
+ }
+
+
+/** NAV BAR STYLING **/
+
+#nav-bar {
+    border-bottom: solid goldenrod;
+    background-color: bisque;
+    display: flex;
+    
+ 
+}
+a {
+    padding: 8px;
+    float: left;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+   
+    display: inline-block;
+    
+}
+/** GALLERY ROW STYLING **/ 
+#gallery {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.product-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid goldenrod;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/** ABOUT US STYLING **/ 
+
+#about-us {
+    display: flex;
+    margin: 10px;
+}
+
+#video {
+width: 60%;
+}
+
+video {
+width: inherit;
+min-width: 300px;;
+}
+
+#paragraph {
+ width: 40%;
+}
+
+/** FOOTER STYLING **/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: burlywood;
+}
+
+#privacy h6 {
+    margin:5px;
+    display: inline-block;
+}
+
+#copyright {
+    display: block;
+
+}
