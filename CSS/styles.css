@@ -3,6 +3,16 @@
      margin: 0px;
      padding: 0px; 
  }
+ 
+ /** JUMBOTRON STYLING **/ 
+
+
+ .jumbotron h1 {
+     color: whitesmoke;
+ }
+ .jumbotron p {
+    color: whitesmoke;
+ }
 
 
 /** NAV BAR STYLING **/
@@ -41,7 +51,7 @@ h3 {
     border-radius: 50%;
     border: solid goldenrod;
     margin: 10px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     
 
@@ -71,16 +81,93 @@ min-width: 300px;;
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 20px;
     background-color: burlywood;
+    padding: 10px;
 }
 
-#privacy h6 {
-    margin:5px;
-    display: inline-block;
+
+#privacy {
+    /* display: block;
+    float: left; */
+    padding: 10px;
+    width: 50%;
+}
+
+#privacy p {
+    /* margin:5px; */
+    /* padding: 0px;
+    margin: 0px; */
+    display: inline;
+    vertical-align: center;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
 }
 
 #copyright {
-    display: block;
+    /* display: inline; */
+    /* padding: 10px; */
+    width: 50%;
+
+}
+
+#copyright {
+    vertical-align: center;
+    text-align: center;
+
+}
+#privacy a:hover  {
+    color: darkolivegreen;
+    background-color: inherit;
+
+}
+
+#privacy a {
+    text-decoration: none;
+}
+
+/** styles for the product-images **/ 
+
+#joker {
+    background-image: url(../Images/80b0b5e9c76cf893cce3863fc9bef8e9--funk-pop-funko-toys.jpg);
+    background-size: cover;
+}
+
+#cat {
+    background-image: url(../Images/12449_DrSeuss_CatInTheHat_POP_GLAM_HiRes_1024x1024__85848.1485822113.jpg);
+    background-size: cover;
+}
+
+
+#grinch {
+    background-image: url(../Images/grichbig.jpg);
+    background-size: cover;
+}
+
+#katana {
+    background-image: url(../Images/12854_DC_BOMBSHELL_katana_GLAM_HiRes_1024x1024__03273.1486768608.jpg);
+    background-size: cover;
+}
+
+
+.jumbotron {
+    background-image: url(../Images/backgroud\ image.jpg);
+    background-size: cover;
+}
+
+
+/** MEDIA QUERIES **/ 
+
+@media screen and (max-width: 800px) {
+    #gallery {
+        display:block;
+        margin: auto;
+    }
+
+    #about-us{
+        display: block;
+       
+    }
 
 }
