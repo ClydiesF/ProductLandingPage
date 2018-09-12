@@ -1,131 +1,24 @@
+/** BACKGROUND COLOR PALETTE **/ 
+:root {
+    --Lightgrey: #bcc4c4;
+    --Medgrey: #9fa8a8;
+    --Darkgrey: #6f7777;
+}
+
+
+/** HTML **/ 
+html {
+    margin: 0px;
+     padding: 0px; 
+}
 /** BODY **/
  body {
-     margin: 0px;
-     padding: 0px; 
+ background-image: linear-gradient(to right bottom, var(--Lightgrey),var(--Darkgrey));
+
  }
  
  /** JUMBOTRON STYLING **/ 
 
-
- .jumbotron h1 {
-     color: whitesmoke;
- }
- .jumbotron p {
-    color: whitesmoke;
- }
-
-
-/** NAV BAR STYLING **/
-
-#nav-bar {
-    border-bottom: solid goldenrod;
-    background-color: bisque;
-    display: flex;
-    
- 
-}
-a {
-    padding: 8px;
-    float: left;
-}
-a:hover {
-    background-color: black;
-    color: white;
-}
-
-h3 {
-   
-    display: inline-block;
-    
-}
-/** GALLERY ROW STYLING **/ 
-#gallery {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-}
-.product-pic {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: solid goldenrod;
-    margin: 10px;
-    /* display: flex; */
-    justify-content: center;
-    
-
-}
-
-/** ABOUT US STYLING **/ 
-
-#about-us {
-    display: flex;
-    margin: 10px;
-}
-
-#video {
-width: 60%;
-}
-
-video {
-width: inherit;
-min-width: 300px;;
-}
-
-#paragraph {
- width: 40%;
-}
-
-/** FOOTER STYLING **/
-footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    background-color: burlywood;
-    padding: 10px;
-}
-
-
-#privacy {
-    /* display: block;
-    float: left; */
-    padding: 10px;
-    width: 50%;
-}
-
-#privacy p {
-    /* margin:5px; */
-    /* padding: 0px;
-    margin: 0px; */
-    display: inline;
-    vertical-align: center;
-    text-align: center;
-    font-weight: bolder;
-    color: black;
-}
-
-#copyright {
-    /* display: inline; */
-    /* padding: 10px; */
-    width: 50%;
-
-}
-
-#copyright {
-    vertical-align: center;
-    text-align: center;
-
-}
-#privacy a:hover  {
-    color: darkolivegreen;
-    background-color: inherit;
-
-}
-
-#privacy a {
-    text-decoration: none;
-}
 
 /** styles for the product-images **/ 
 
@@ -151,23 +44,7 @@ footer {
 }
 
 
-.jumbotron {
-    background-image: url(../Images/backgroud\ image.jpg);
-    background-size: cover;
-}
 
 
 /** MEDIA QUERIES **/ 
 
-@media screen and (max-width: 800px) {
-    #gallery {
-        display:block;
-        margin: auto;
-    }
-
-    #about-us{
-        display: block;
-       
-    }
-
-}
