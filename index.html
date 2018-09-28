@@ -15,30 +15,43 @@
 </head>
 
 <body>
+
+    <!--SHOP-ICON-->
+    <div class="shopping-cart">
+        <svg class="shopping-icon">
+            <use class="shopping-pic" xlink:href="Images/sprite.svg#shopping-cart" />
+        </svg>
+    </div>
+
+    <!--JUMPTRON ROW WITH DEFINITION OF WHAT WE OFFER-->
+    <div class="jumbotron jumbotron-fluid mb-0">
+        <div class="container">
+            <h1 class="display-4">FunkoPOP WORLD</h1>
+            <p class="lead">The <strong>#1</strong> site in the world for exclusive deals on the most popular funkopops</p>
+        </div>
+    </div>
+
     <!--NAV BAR SELECTION LINKS-->
-    <nav class="navbar">
+    <nav id="navbar" class="navbar navbar-expand-md bg-danger navbar-dark mb-0">
         <ul class="navbar-nav">
             <li class="navbar-item">
-                    <a href="#" class="nav-link">Product</a>
-            </li>
-            <li class="navbar-item">
-                    <a href="#" class="nav-link">Product</a>
-            </li>
-            <li class="navbar-item">
-                    <a href="#" class="nav-link">Product</a>
-            </li>
-            <li class="navbar-item"> 
                 <a href="#" class="nav-link">Product</a>
             </li>
-        </ul>  
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Product</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Product</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Product</a>
+            </li>
+        </ul>
+
+        <a class="navbar-brand " href="#">Navbar</a>
     </nav>
-    <!--JUMPTRON ROW WITH DEFINITION OF WHAT WE OFFER-->
-    <div class="jumbotron">
-        <h1>JUNKO POPS Galore!</h1>
-        <P>This is the
-            <span id="f-number">#1</span> site for JunkoPOPS worldwide</P>
-    </div>
-    <!--Gallery of JUNKO POPS we have in storage-->
+
+    <!--Carousel of JUNKO POPS we have in storage-->
     <div id="gallery">
         <div class="product-pic" id="joker">
         </div>
@@ -47,35 +60,104 @@
         <div class="product-pic" id="katana"></div>
 
     </div>
-    <hr>
-    <!-- Page with video and section about the the compnay and how the company begin-->
-    <div id="about-us">
-        <div id="video">
-            <video width="500" height="300" controls>
-                <source src="https://youtu.be/6mdWJukcA_w" />
-            </video>
-        </div>
-        <div id="paragraph">
-            <p>This is all about the compant and how we got started selling junko pops and how that has not only chnaged our
-                life for the better but has also chnaged the life of our customers as well. </p>
-        </div>
+
+    <!--MAIN CONTENT OF THE WEBSITE-->
+    <div class="content">
 
     </div>
+
+
+
     <!--FOOTER-->
     <footer>
-        <div id="privacy">
-            <p><a href="">Privacy</a></p>
-            <p><a href="">Terms</a></p>
-            <p><a href="">Contracts</a></p>
+        <div class="social">
+            <div class="social__text">
+                Stay up to date with all things FunkoPOP World!
+            </div>
+            <div class="social__media">
+                <div class="social__icon-box">
+                    <svg class="icon">
+                        <use class="social__icon-pic" xlink:href="Images/sprite.svg#twitter" />
+                    </svg>
+                    <svg class="icon">
+                        <use class="social__icon-pic" xlink:href="Images/sprite.svg#instagram" />
+                    </svg>
+                    <svg class="icon">
+                        <use class="social__icon-pic" xlink:href="Images/sprite.svg#facebook" />
+                    </svg>
+                    <svg class="icon">
+                        <use class="social__icon-pic" xlink:href="Images/sprite.svg#snapchat" />
+                    </svg>
+
+                    <svg class="icon">
+                        <use class="social__icon-pic" xlink:href="Images/sprite.svg#youtube" />
+                    </svg>
+
+                </div>
+
+                <div class="social__download">
+                    <img class="social__badge" src="/Images/googe-badge.svg" alt="download on google play logo">
+                    <img class="social__badge app" src="/Images/dAPPBADGE.svg" alt="download on app store">
+                </div>
+            </div>
         </div>
-        <div id="copyright">
-            <p>CopyRight 2018&copy; Supervillian productions</p>
+
+        <!--CONTACT-SECTION-->
+        <div class="contact">
+            <div class="contact-box">
+                <p class="contact__header">whats new</p>
+                <p class="contact__text">funkopop World app</p>
+                <p class="contact__text">digital products</p>
+                <p class="contact__text">pop yourself</p>
+            </div>
+            <div class="contact-box">
+                <p class="contact__header">buy from us</p>
+                <p class="contact__text">collectible boxes</p>
+                <p class="contact__text">funko shop</p>
+                <p class="contact__text">resellers</p>
+                <p class="contact__text">faqs</p>
+                <p class="contact__text">cancellation policy</p>
+                <p class="contact__text">replacement policy</p>
+            </div>
+            <div class="contact-box">
+                <p class="contact__header">partner with us</p>
+                <p class="contact__text">resellers</p>
+                <p class="contact__text">affiliates</p>
+
+            </div>
+            <div class="contact-box">
+                <p class="contact__header">about us</p>
+                <p class="contact__text">leadership</p>
+                <p class="contact__text">news</p>
+                <p class="contact__text">careers</p>
+                <p class="contact__text">investors</p>
+                <p class="contact__text">community</p>
+            </div>
+            <div class="contact-box">
+                <p class="contact__header">location</p>
+                <p class="contact__text">Funkopop world Hq</p>
+                <p class="contact__text">fwp south</p>
+                <p class="contact__text">fwp europe</p>
+                <p class="contact__text">loungefly</p>
+                <p class="contact__text">find a retailer</p>
+            </div>
+
+
         </div>
+        <!--Bottom picture-->
+        <div class="bottom__footer">
+            <p class="footer__text">privacy policy</p>
+            <p class="footer__text">terms and conditions</p>
+            <p class="footer__text">contact us</p>
+        </div>
+
+
+
 
     </footer>
 
 
-    <script src="" async defer></script>
+    <script src="/JS/script.js" async defer></script>
 </body>
 
 </html>

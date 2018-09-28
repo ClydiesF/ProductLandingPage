@@ -1,4 +1,4 @@
-/** BACKGROUND COLOR PALETTE **/ 
+/** BACKGROUND COLOR PALETTE **/
 :root {
     --Lightgrey: #bcc4c4;
     --Medgrey: #9fa8a8;
@@ -6,45 +6,192 @@
 }
 
 
-/** HTML **/ 
+/** HTML **/
 html {
     margin: 0px;
-     padding: 0px; 
+    padding: 0px;
 }
+
 /** BODY **/
- body {
- background-image: linear-gradient(to right bottom, var(--Lightgrey),var(--Darkgrey));
+body {
+    background-image: linear-gradient(to right bottom, white, whitesmoke);
 
- }
+}
+
+/**FOOTER **/
+footer {
+    background-color: var(--Medgrey);
+    padding-bottom: 420px;
+}
+
+.social__text {
+    background-color: var(--Lightgrey);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #6f7777;
+
+}
+
+.social__media {
+    background-color: var(--Lightgrey);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icon-box {
+    height: 55px;
+    width: 380px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
  
- /** JUMBOTRON STYLING **/ 
 
 
-/** styles for the product-images **/ 
-
-#joker {
-    background-image: url(../Images/80b0b5e9c76cf893cce3863fc9bef8e9--funk-pop-funko-toys.jpg);
-    background-size: cover;
 }
 
-#cat {
-    background-image: url(../Images/12449_DrSeuss_CatInTheHat_POP_GLAM_HiRes_1024x1024__85848.1485822113.jpg);
-    background-size: cover;
+.icon {
+
+    margin: 5px;
+    transition: all .5s;
+
+
 }
 
-
-#grinch {
-    background-image: url(../Images/grichbig.jpg);
-    background-size: cover;
+.icon:hover{
+    transform: scale(1.2);
 }
 
-#katana {
-    background-image: url(../Images/12854_DC_BOMBSHELL_katana_GLAM_HiRes_1024x1024__03273.1486768608.jpg);
-    background-size: cover;
+.social__icon-pic {
+    fill: black;
+    margin: 10px;
 }
 
 
+.social__download {
+    
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+}
+
+.social__badge {
+    width: 140px;
+    margin-left: 15px;
+   
+}
 
 
-/** MEDIA QUERIES **/ 
+
+/** CONTACT---SECTION **/
+.contact {
+    width: 930px;
+    height: 230px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.contact-box {
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+
+}
+.contact__header {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.contact__text {
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.contact__text:hover {
+    border-bottom: solid whitesmoke 1px;
+    cursor: pointer;
+}
+
+.bottom__footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__text {
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer__text:not(:last-child)  {
+    margin-right: 10px;
+}
+
+.footer__text:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+/**SHOPPING CART on the BOTTOM OF PAGE**/
+
+.shopping-cart {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    background-color: rgb(68, 68, 231);
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.shopping-cart:hover {
+    box-shadow: 5px 5px 5px rgb(49, 48, 48);
+    cursor: pointer;
+}
+.shopping-icon {
+    width: 40px;
+    height: 40px;
+margin: auto;
+fill: white;
+}
+.shopping-pic {}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/** CONTENT - SECTION **/ 
+.content {
+    background-color: deepskyblue;
+    height: 800px;
+    margin:0;
+}
+
+/** MEDIA QUERIES **/
+
+
 
