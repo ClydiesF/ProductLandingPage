@@ -21,7 +21,7 @@ body {
 /**FOOTER **/
 footer {
     background-color: var(--Medgrey);
-    padding-bottom: 420px;
+    padding-bottom: 220px;
 }
 
 .social__text {
@@ -50,7 +50,7 @@ footer {
     margin-right: 20px;
     display: flex;
     justify-content: center;
- 
+
 
 
 }
@@ -63,7 +63,7 @@ footer {
 
 }
 
-.icon:hover{
+.icon:hover {
     transform: scale(1.2);
 }
 
@@ -74,7 +74,7 @@ footer {
 
 
 .social__download {
-    
+
     height: 60px;
     width: 400px;
     display: flex;
@@ -84,7 +84,7 @@ footer {
 .social__badge {
     width: 140px;
     margin-left: 15px;
-   
+
 }
 
 
@@ -106,6 +106,7 @@ footer {
     margin: 10px;
 
 }
+
 .contact__header {
     text-transform: uppercase;
     font-weight: 600;
@@ -118,6 +119,7 @@ footer {
     font-size: 14px;
     box-sizing: border-box;
 }
+
 .contact__text:hover {
     border-bottom: solid whitesmoke 1px;
     cursor: pointer;
@@ -140,7 +142,7 @@ footer {
 
 }
 
-.footer__text:not(:last-child)  {
+.footer__text:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -154,7 +156,7 @@ footer {
 
 .shopping-cart {
     position: fixed;
-    bottom: 15px;
+    bottom: 25px;
     right: 10px;
     background-color: rgb(68, 68, 231);
     width: 75px;
@@ -170,28 +172,69 @@ footer {
     box-shadow: 5px 5px 5px rgb(49, 48, 48);
     cursor: pointer;
 }
+
 .shopping-icon {
     width: 40px;
     height: 40px;
-margin: auto;
-fill: white;
+    margin: auto;
+    fill: white;
 }
+
 .shopping-pic {}
 
-.sticky{
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-/** CONTENT - SECTION **/ 
+/** CONTENT - SECTION **/
 .content {
-    background-color: deepskyblue;
-    height: 800px;
-    margin:0;
+
+
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
-/** MEDIA QUERIES **/
+.row {
+    display: flex;
+    justify-content: center;
+}
 
 
+.card-body {
+    background-color: var(--Lightgrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all .5s;
+}
 
+.card-body:hover {
+    transform: translatey(-5px);
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.card-text {
+    text-transform: uppercase;
+
+}
+
+.card-num {
+    font-weight: 600;
+}
+
+
+/*IMAGE FORMATTING */
+
+.card-img-top {
+    height: 230px;
+    ;
+}
