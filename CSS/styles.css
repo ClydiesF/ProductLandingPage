@@ -166,6 +166,7 @@ footer {
     align-items: center;
     border-radius: 50%;
     transition: all .3s;
+    z-index: 40;
 }
 
 .shopping-cart:hover {
@@ -237,4 +238,13 @@ footer {
 .card-img-top {
     height: 230px;
     ;
+}
+
+/* Background image for Jumbotron */ 
+.jumbotron {
+    background-image:linear-gradient(to right bottom, rgba(255, 255, 255, 0.445),rgba(0, 0, 255, 0.452)), url(/Images/funko_pop_collection_by_needxxx-dazxmlc.jpg);
+    background-size: cover;
+    color: white;
+    font-weight: 800;
+
 }
